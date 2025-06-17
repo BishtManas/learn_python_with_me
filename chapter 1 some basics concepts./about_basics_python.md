@@ -1,6 +1,4 @@
-### 📘 `README.md` – Learn Python with Me
-
----
+# Chapter 1
 
 ## 🚀 Getting Started with Python
 
