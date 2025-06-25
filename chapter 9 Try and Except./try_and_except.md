@@ -177,5 +177,16 @@ if age < 0:
 
 ---
 
+## ✅ Practice Task for You
 
+Try this code and change the values to test:
+
+```python
+try:
+    marks = int(input("Enter your marks: "))
+    print("You entered:", marks)
+except ValueError:
+    print("Please enter a valid number!")
+finally:
+    print("Input checking done.")
 ```
