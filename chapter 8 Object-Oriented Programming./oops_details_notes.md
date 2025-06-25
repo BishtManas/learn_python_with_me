@@ -223,3 +223,23 @@ Demo.hello()
 Demo.info()
 ```
 
+---
+
+## 💬 Summary (OOP in Short)
+
+| OOP Concept   | Real-Life Example                         |
+| ------------- | ----------------------------------------- |
+| Class         | Blueprint of Car                          |
+| Object        | Real Car created from that blueprint      |
+| Encapsulation | Car engine hidden inside body             |
+| Inheritance   | SportsCar inherits Car features           |
+| Polymorphism  | Brake works differently in different cars |
+| Abstraction   | Driver sees only steering, not wiring     |
+
+---
+
+## ✅ Practice Ideas
+
+* Create a `Book` class with title, author, price
+* Create a `Calculator` class (add, subtract, multiply)
+* Make a `Shape` base class → `Circle` and `Rectangle` inherit and override `area()`
