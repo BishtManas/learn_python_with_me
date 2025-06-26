@@ -215,4 +215,27 @@ Same output: `[0, 3, 6, 9]`
 
 ---
 
+## ⚠️ Things to Avoid
 
+| Mistake                                   | Why it’s wrong               |
+| ----------------------------------------- | ---------------------------- |
+| Using `print()` inside list comprehension | Not meant for printing stuff |
+| Writing too much logic                    | Keep it readable             |
+| Nesting too deep                          | Gets hard to read/debug      |
+
+---
+
+## ✅ Summary
+
+* 🔹 Clean, one-line list creation
+* 🔹 Use `if` to filter
+* 🔹 Use `if-else` for decisions
+* 🔹 Makes your code Pythonic 🚀
+
+---
+
+## 🧠 Practice Challenge (Try it now)
+
+1. Create a list of all multiples of 7 from 1 to 100
+2. From list `["apple", "banana", "cherry"]`, make all uppercase using list comprehension
+3. Create a list of square roots of all even numbers from 1 to 20
