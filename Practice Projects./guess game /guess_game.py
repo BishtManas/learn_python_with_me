@@ -75,7 +75,7 @@ class GuessGame:
             ask = input ('wrong guess if you want hint then type (yes/no) :').lower().strip()
             print()
             if ask == 'yes':
-                print('One guess = 5 points will be deducted from your score')
+                print('One hints = 5 points will be deducted from your score')
                 hints = int(input ('how many hints you want :'))
                 print()
                 hint_sol = random.sample(range(len(Random_Anime)), hints)
@@ -84,6 +84,7 @@ class GuessGame:
                 self.score -= hints * 5
                 print(' '.join(display))
                 print()
+                
     def guess_song(self):
         print("""
 1. Shape of You
@@ -230,4 +231,4 @@ while True:
 # print()
 # guess_game()
     
-#     # user_input = input('what is you final answer :')a
+#     # user_input = input('what is you final answer :')
