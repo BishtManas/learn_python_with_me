@@ -61,7 +61,7 @@ class GuessGame:
 7. Tokyo Ghoul
 8. Jujutsu Kaisen
 """)
-        print ('this is your word length ')
+        print ('This is your word length ')
         display = ['_'] * len(Random_Anime)
         print(' '.join(display))
         print()
