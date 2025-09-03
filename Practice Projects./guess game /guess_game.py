@@ -21,11 +21,12 @@ song_names = [
     "Perfect",
     "Calm Down"
 ]
-Random_Anime = random.choice(anime_names).lower()
-Random_Song = random.choice(song_names).lower()
 
 class GuessGame:
-    score = 100 # if user take hints the then score reduces to how many letters you ask for bot
+    def __init__(self):
+        self.score = 100
+        self.display = []
+
     def guess_number1(self):
         ask = int(input ('Enter your guessed number between 1 to 10 : '))
         if ask == computer_choice2:
@@ -62,8 +63,8 @@ class GuessGame:
 8. Jujutsu Kaisen
 """)
         print ('This is your word length ')
-        display = ['_'] * len(Random_Anime)
-        print(' '.join(display))
+        self.display = ['_'] * len(Random_Anime)
+        print(' '.join(self.display))
         print()
         ask = int(input ('choose a anime character name as showed (type number) :'))
         print()
@@ -75,15 +76,46 @@ class GuessGame:
             ask = input ('wrong guess if you want hint then type (yes/no) :').lower().strip()
             print()
             if ask == 'yes':
-                print('One hints = 5 points will be deducted from your score')
-                hints = int(input ('how many hints you want :'))
-                print()
-                hint_sol = random.sample(range(len(Random_Anime)), hints)
-                for pos in hint_sol:
-                    display[pos] = Random_Anime[pos]
-                self.score -= hints * 5
-                print(' '.join(display))
-                print()
+                self.hint_anime()
+            else:
+                print('No hints taken. Better luck next time!')
+                
+    def hint_anime(self):
+        print('One hints = 5 points will be deducted from your score')
+        hints = int(input ('how many hints you want :'))
+        print()
+        hint_sol = random.sample(range(len(Random_Anime)), hints)
+        for pos in hint_sol:
+            self.display[pos] = Random_Anime[pos]
+        self.score -= hints * 5
+        # print(' '.join(self.display))
+        print()
+        
+        print ("After taking hints this is your length of the word :")
+        print()
+        print(' '.join(self.display))
+        print()
+        # game.guess_anime()
+        print("""
+1. Naruto
+2. One Piece
+3. Attack on Titan
+4. Death Note
+5. Demon Slayer
+6. Dragon Ball Z
+7. Tokyo Ghoul
+8. Jujutsu Kaisen
+""")
+        print()
+        ask = int(input ('choose a anime character name as showed (type number) :'))
+        print()
+        if anime_names[ask-1].lower() == Random_Anime:
+            self.score += 25
+            print(f'correct guess here is your score :{self.score}')
+            print() 
+        else :
+            print('Sorry, wrong guess. Better luck next time!')
+            print()
                 
     def guess_song(self):
         print("""
@@ -118,6 +150,8 @@ class GuessGame:
                 print()
 game = GuessGame()
 while True:
+    Random_Anime = random.choice(anime_names).lower()
+    Random_Song = random.choice(song_names).lower()
     print()
     ask_user = input('what you want to guess (guess number / guess anime name / guess song name ) or exit(404) : ').lower().strip()
     print()
