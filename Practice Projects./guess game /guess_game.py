@@ -140,14 +140,44 @@ class GuessGame:
             ask = input ('wrong guess if you want hint then type (yes/no) :').lower().strip()
             print()
             if ask == 'yes':
-                hints = int(input ('how many hints you want :'))
-                print()
-                hint_sol = random.sample(range(len(Random_Song)), hints)
-                for pos in hint_sol:
-                    display[pos] = Random_Song[pos]
-                self.score -= hints * 5
-                print(' '.join(display))
-                print()
+                self.hint_song()
+            else:
+                print('No hints taken. Better luck next time!')
+    def hint_song(self):
+        print('One hints = 5 points will be deducted from your score')
+        hints = int(input ('how many hints you want :'))
+        print()
+        hint_sol = random.sample(range(len(Random_Song)), hints)
+        for pos in hint_sol:
+            self.display[pos] = Random_Song[pos]
+        self.score -= hints * 5
+        # print(' '.join(self.display))
+        print()
+        
+        print ("After taking hints this is your length of the word :")
+        print()
+        print(' '.join(self.display))
+        print()
+        # game.guess_anime()
+        print("""
+1. Shape of You
+2. Believer
+3. Blinding Lights
+4. Levitating
+5. Perfect
+6. Calm Down
+""")
+        print()
+        ask = int(input ('choose a song name as showed (type number) :'))
+        print()
+        if song_names[ask-1].lower() == Random_Song:
+            self.score += 25
+            print(f'correct guess here is your score :{self.score}')
+            print() 
+        else :
+            print('Sorry, wrong guess. Better luck next time!')
+            print()
+        
 game = GuessGame()
 while True:
     Random_Anime = random.choice(anime_names).lower()
