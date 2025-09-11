@@ -26,15 +26,15 @@ Everything is explained step-by-step so **you don't just code — you actually u
 | 1       | [Some Basics Concepts](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%201%20some%20basics%20concepts.)                 |
 | 2       | [Takes User Input](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%202%20Takes%20user%20input.)                     |
 | 3       | [Uses of Operators](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%203%20uses%20of%20operators.)                    |
-| 4       | Loops and If-Else Statement          |
-| 5       | Functions in Python                  |
-| 6       | List, Tuple, Set & Dictionary        |
-| 7       | File Handling                        |
-| 8       | Object-Oriented Programming          |
-| 9       | Try and Except                       |
-| 10      | List Comprehension                   |
-| 11      | Modules and Packages                 |
-| 12      | Python Virtual Environment           |
+| 4       | [Loops and If-Else Statement](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%204%20loops%20and%20if%20else%20statement.)          |
+| 5       | [Functions in Python](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%205%20functions%20in%20python.)                  |
+| 6       | [List, Tuple, Set & Dictionary](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%206%20List%2C%20Tuple%2C%20Set%20%26%20Dictionary)        |
+| 7       | [File Handling](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%207%20File%20Handling.)                        |
+| 8       | [Object-Oriented Programming]()          |
+| 9       | [Try and Except]()                       |
+| 10      | [List Comprehension]()                   |
+| 11      | [Modules and Packages]()                 |
+| 12      | [Python Virtual Environment]()           |
 |         | [Practice Projects](https://github.com/BishtManas/learn_python_with_me/tree/main/Practice%20Projects.)                    |
 
 ---
