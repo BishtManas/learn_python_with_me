@@ -35,7 +35,7 @@ Everything is explained step-by-step so **you don't just code — you actually u
 | 10      | List Comprehension                   |
 | 11      | Modules and Packages                 |
 | 12      | Python Virtual Environment           |
-|         | Practice Projects                    |
+|         | [Practice Projects](https://github.com/BishtManas/learn_python_with_me/tree/main/Practice%20Projects.)                    |
 
 ---
 
