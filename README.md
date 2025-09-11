@@ -21,19 +21,21 @@ Everything is explained step-by-step so **you don't just code — you actually u
 
 ## 📚 Topics Covered
 
-| Chapter | Topic |
-|--------|-------|
-| 1️⃣ | **Some Basic Concepts** (variables, data types, input/output) |
-| 2️⃣ | **Taking User Input** |
-| 3️⃣ | **Use of Operators** |
-| 4️⃣ | **Loops & Conditional Statements** (`if`, `else`, `elif`, `for`, `while`) |
-| 5️⃣ | **Functions in Python** |
-| 6️⃣ | **Lists, Tuples, Sets & Dictionaries** |
-| 7️⃣ | **File Handling** |
-| 8️⃣ | **Object-Oriented Programming (OOP)** |
-| 9️⃣ | **Error Handling** (`try`, `except`) |
-| 🔟 | **List Comprehension** |
-| 1️⃣1️⃣ | **Modules and Packages** |
+| Chapter | Title                                |
+|---------|--------------------------------------|
+| 1       | Some Basics Concepts                 |
+| 2       | Takes User Input                     |
+| 3       | Uses of Operators                    |
+| 4       | Loops and If-Else Statement          |
+| 5       | Functions in Python                  |
+| 6       | List, Tuple, Set & Dictionary        |
+| 7       | File Handling                        |
+| 8       | Object-Oriented Programming          |
+| 9       | Try and Except                       |
+| 10      | List Comprehension                   |
+| 11      | Modules and Packages                 |
+| 12      | Python Virtual Environment           |
+|         | Practice Projects                    |
 
 ---
 
