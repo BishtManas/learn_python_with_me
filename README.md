@@ -23,9 +23,9 @@ Everything is explained step-by-step so **you don't just code — you actually u
 
 | Chapter | Title                                |
 |---------|--------------------------------------|
-| 1       | Some Basics Concepts                 |
-| 2       | Takes User Input                     |
-| 3       | Uses of Operators                    |
+| 1       | [Some Basics Concepts](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%201%20some%20basics%20concepts.)                 |
+| 2       | [Takes User Input](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%202%20Takes%20user%20input.)                     |
+| 3       | [Uses of Operators](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%203%20uses%20of%20operators.)                    |
 | 4       | Loops and If-Else Statement          |
 | 5       | Functions in Python                  |
 | 6       | List, Tuple, Set & Dictionary        |
