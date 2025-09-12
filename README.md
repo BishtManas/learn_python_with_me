@@ -30,11 +30,11 @@ Everything is explained step-by-step so **you don't just code — you actually u
 | 5       | [Functions in Python](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%205%20functions%20in%20python.)                  |
 | 6       | [List, Tuple, Set & Dictionary](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%206%20List%2C%20Tuple%2C%20Set%20%26%20Dictionary)        |
 | 7       | [File Handling](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%207%20File%20Handling.)                        |
-| 8       | [Object-Oriented Programming]()          |
-| 9       | [Try and Except]()                       |
-| 10      | [List Comprehension]()                   |
-| 11      | [Modules and Packages]()                 |
-| 12      | [Python Virtual Environment]()           |
+| 8       | [Object-Oriented Programming](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%208%20Object-Oriented%20Programming.)          |
+| 9       | [Try and Except](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%209%20Try%20and%20Except.)                       |
+| 10      | [List Comprehension](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%2010%20List%20Comprehension.)                   |
+| 11      | [Modules and Packages](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%2011%20Modules%20and%20packages%20)                 |
+| 12      | [Python Virtual Environment](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%2012%20Python%20Virtual%20Environment%20)           |
 |         | [Practice Projects](https://github.com/BishtManas/learn_python_with_me/tree/main/Practice%20Projects.)                    |
 
 ---
