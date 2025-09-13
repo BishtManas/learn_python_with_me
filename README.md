@@ -36,7 +36,7 @@ Everything is explained step-by-step so **you don't just code — you actually u
 | 11      | [Modules and Packages](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%2011%20Modules%20and%20packages%20)                 |
 | 12      | [Python Virtual Environment](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%2012%20Python%20Virtual%20Environment%20)           |
 |         | [Practice Projects](https://github.com/BishtManas/learn_python_with_me/tree/main/Practice%20Projects.)                    |
-|Recently add| [Git Hub informator]()|
+|Recently add| [Git Hub informator](https://github.com/BishtManas/learn_python_with_me/blob/main/make_github_info(with_api).py)|
 
 ---
 
