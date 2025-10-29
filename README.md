@@ -37,6 +37,7 @@ Everything is explained step-by-step so **you don't just code — you actually u
 | 12      | [Python Virtual Environment](https://github.com/BishtManas/learn_python_with_me/tree/main/chapter%2012%20Python%20Virtual%20Environment%20)           |
 |Projects       | [Practice Projects](https://github.com/BishtManas/learn_python_with_me/tree/main/Practice%20Projects.)                    |
 |Recently add| [Git Hub informator](https://github.com/BishtManas/learn_python_with_me/blob/main/make_github_info(with_api).py)|
+|Numpy Tutorial| [Numpy](https://github.com/BishtManas/learn_python_with_me/tree/main/Numpy%20Tutorial)|
 
 ---
 
@@ -47,5 +48,3 @@ Each chapter folder contains:
 - Explanatory notes 📄  
 - Practice problems 🧪  
 - Sometimes mini projects for hands-on experience 🎯  
-
----
